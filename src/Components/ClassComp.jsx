@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
- class ButtonStyle extends Component {
+ class ClassComp extends Component {
     constructor(){
         super();
         this.state ={
@@ -14,7 +14,7 @@ import React, { Component } from 'react'
     };
   render() {
     const buttonSty ={
-        backgroundcolor: this.state.isBlue ? 'blue' : 'green',
+        backgroundcolor: this.state.isBlue ? 'blue' : 'red',
         color: 'white',
         padding: '10px 20px',
         border: 'none',
@@ -30,4 +30,4 @@ import React, { Component } from 'react'
   }
 }
 
-export default ButtonStyle
+export default ClassComp;
