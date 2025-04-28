@@ -13,6 +13,15 @@ import React, { Component } from 'react'
         }));
     };
   render() {
+    const buttonSty ={
+        backgroundcolor: this.state.isBlue ? 'blue' : 'green',
+        color: 'white',
+        padding: '10px 20px',
+        border: 'none',
+        borderRadius:'5px',
+        cursor:'pointer',
+        fontSize: '20px',
+    };
     return (
       <div>ButtonStyle</div>
     )
