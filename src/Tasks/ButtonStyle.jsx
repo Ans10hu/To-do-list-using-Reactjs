@@ -7,6 +7,11 @@ import React, { Component } from 'react'
             isBlue : true,
         };
     }
+    toggleColor =() =>{
+        this.setState(prevState => ({
+            isBlue: !prevState.isBlue
+        }));
+    };
   render() {
     return (
       <div>ButtonStyle</div>
