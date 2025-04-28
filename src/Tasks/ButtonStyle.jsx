@@ -23,8 +23,10 @@ import React, { Component } from 'react'
         fontSize: '20px',
     };
     return (
-      <div>ButtonStyle</div>
-    )
+      <div>
+        <button style={buttonSty} onClick={this.toggleColor}> click the button to change the color</button>
+      </div>
+    );
   }
 }
 
